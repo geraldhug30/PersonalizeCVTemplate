@@ -1,0 +1,143 @@
+
+body {
+		padding: 0;
+		margin: 0;
+		background-color: #f2f6f5;
+		font-family: verdana, sans-serif;
+	}
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #93b5b3;
+	border-width: 5px;
+	width: 5%;
+}
+h1 {
+	font-size: 150%; 
+	font-family: 'Hepta Slab', serif;
+	color: #63707e;
+	
+}
+h2 {
+	font-size: 150%; 
+	font-family: 'Hepta Slab', serif;
+	color: #93b5b3;
+}
+h3 {
+	color: #63707e;
+}
+p {
+	font-size: 100%;
+}
+
+/*   header */
+.pro{
+	text-decoration: underline;
+}
+.profile-pic {
+	width: 40%;
+	border-radius: 100%;
+}
+.profile {
+	margin: 50px;
+}
+.top-container {
+	text-align: center;
+	position: relative;
+	padding-top: 20%;
+}
+
+.bottom-bear {
+	position: relative;
+	right: 30%;
+	width: 30%;
+}
+
+/*   body */
+.top-middle-container {
+	margin: 5%;
+}
+
+table{
+	margin: 0 auto;
+}
+.middle-container {
+	width: 70%;
+	margin: 100px auto 100px auto;
+	text-align: center;
+}
+
+.jsLogo {
+	width: 150px;
+	margin-right: 30px;
+	float: left;
+}
+.skillsImage {
+	width: 150px;
+	float: right;
+	margin-left: 30px;
+}
+
+.skill-row {
+	height: 200px;
+	position: relative;
+	margin: 50px;
+}
+
+/* botton */
+.btn {
+  background: #296c99;
+  background-image: -webkit-linear-gradient(top, #296c99, #2980b9);
+  background-image: -moz-linear-gradient(top, #296c99, #2980b9);
+  background-image: -ms-linear-gradient(top, #296c99, #2980b9);
+  background-image: -o-linear-gradient(top, #296c99, #2980b9);
+  background-image: linear-gradient(to bottom, #296c99, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 11px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.contact-me p {
+margin-bottom: 50px;
+}
+
+.bottom-container {
+	background-color: #93b5b3;
+	text-align: center;
+	padding: 50px 0 20px;
+}
+.footer-link {
+	margin: 10px 20px; 
+	color: #c8dad3;
+}
+.footer-link:hover {
+	color: #f6f6f6;
+}
+/* Tools */
+.leftText {
+	text-align: left;
+}
+.rightText {
+	text-align: right;
+}
+.removeFloat {
+  clear: left;
+}
+.spaceBR {
+	height: 10%;
+}
